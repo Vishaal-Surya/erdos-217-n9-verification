@@ -1,0 +1,5 @@
+U: file=data/E1_U.txt.gz lines=187 kept=187 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+mode=orbit, labelled seeds (orbit elements) = 87260, built in 0.0s
+arr=star              seeds=87260 nodes=20086096 levels[6:87260 7:43540 8:0 9:0] leaves=0 distinctCanonical=0 time=28.4s
+level7: 13 distinct canonical 7-point all-high patterns (local+capacity+all 6-subsets in U) -> data/coverage_E1_level7.txt
+TOTAL leaves=0 distinctCanonical(all arrangements)=0

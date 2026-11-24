@@ -1,0 +1,9 @@
+mine total 487 builder total 487 equal sets: True
+P3K2_d1_disjoint 68 68 True
+P3K2_d1_meeting 162 162 True
+chain_d1_end 20 20 True
+chain_d1_middle 12 12 True
+disjoint 222 222 True
+triangle 3 3 True
+level7 mine 13 builder 13 equal: True
+my affine on builder 487: {'T1': 384, 'T2': 103}

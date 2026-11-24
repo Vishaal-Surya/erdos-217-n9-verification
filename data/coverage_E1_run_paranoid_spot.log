@@ -1,0 +1,4 @@
+U: file=data/E1_U.txt.gz lines=187 kept=187 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+mode=orbit, labelled seeds (orbit elements) = 87260, built in 0.0s
+arr=triangle          seeds=87260 nodes=195981816 levels[6:87260 7:43540 8:100080 9:4320] leaves=4320 distinctCanonical=3 time=798.7s
+TOTAL leaves=4320 distinctCanonical(all arrangements)=3

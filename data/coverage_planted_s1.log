@@ -1,0 +1,17 @@
+# planted n=9 tests, seed 1, noise 0, --paranoid (2026-11-24)
+arr=disjoint          seeds=5760 nodes=3671156 levels[6:5760 7:5040 8:1248 9:192] leaves=192 distinctCanonical=2 time=26.1s
+TARGETS HIT: 1 [planted_disjoint]
+arr=triangle          seeds=13680 nodes=6526848 levels[6:13680 7:15120 8:4320 9:4320] leaves=4320 distinctCanonical=3 time=63.5s
+TARGETS HIT: 1 [planted_triangle]
+arr=star              seeds=20880 nodes=19831944 levels[6:20880 7:40320 8:40320 9:3120] leaves=3120 distinctCanonical=13 time=189.0s
+TARGETS HIT: 1 [planted_star]
+arr=chain_d1_middle   seeds=13680 nodes=6367188 levels[6:13680 7:15120 8:2880 9:240] leaves=240 distinctCanonical=1 time=65.6s
+TARGETS HIT: 1 [planted_chain_d1_middle]
+arr=chain_d1_end      seeds=13680 nodes=5847804 levels[6:13680 7:15120 8:2880 9:240] leaves=240 distinctCanonical=2 time=56.7s
+TARGETS HIT: 1 [planted_chain_d1_end]
+arr=P3K2_d1_disjoint  seeds=10800 nodes=4810476 levels[6:10800 7:10080 8:1440 9:96] leaves=96 distinctCanonical=1 time=45.1s
+TARGETS HIT: 1 [planted_P3K2_d1_disjoint]
+arr=P3K2_d1_meeting   seeds=10800 nodes=4982640 levels[6:10800 7:10080 8:1440 9:96] leaves=96 distinctCanonical=2 time=50.3s
+TARGETS HIT: 1 [planted_P3K2_d1_meeting]
+
+[exited with code 0]

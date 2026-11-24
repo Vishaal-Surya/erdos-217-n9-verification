@@ -1,0 +1,20 @@
+cbd6781f94f2e2f9de47202ee7b60965e7c5f69e977789accee356f376e4214a *data/E1_U.txt.gz
+U: file=data/E1_U.txt.gz lines=187 kept=187 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+mode=orbit, labelled seeds (orbit elements) = 87260, built in 0.0s
+arr=disjoint          seeds=87260 nodes=385012658 levels[6:87260 7:671620 8:1339872 9:21312] leaves=21312 distinctCanonical=222 time=365.9s
+arr=triangle          seeds=87260 nodes=41878992 levels[6:87260 7:43540 8:100080 9:4320] leaves=4320 distinctCanonical=3 time=41.4s
+arr=star              seeds=87260 nodes=29248716 levels[6:87260 7:43540 8:0 9:0] leaves=0 distinctCanonical=0 time=29.8s
+arr=chain_d1_middle   seeds=87260 nodes=41737440 levels[6:87260 7:43540 8:100080 9:2880] leaves=2880 distinctCanonical=12 time=44.4s
+arr=chain_d1_end      seeds=87260 nodes=41734080 levels[6:87260 7:43540 8:100080 9:2400] leaves=2400 distinctCanonical=20 time=44.0s
+arr=P3K2_d1_disjoint  seeds=87260 nodes=41820360 levels[6:87260 7:43540 8:100080 9:6528] leaves=6528 distinctCanonical=68 time=43.2s
+arr=P3K2_d1_meeting   seeds=87260 nodes=41830728 levels[6:87260 7:43540 8:100080 9:7776] leaves=7776 distinctCanonical=162 time=42.6s
+TOTAL leaves=45216 distinctCanonical(all arrangements)=487
+disjoint           pass=0 fail=222
+triangle           pass=0 fail=3
+chain_d1_middle    pass=0 fail=12
+chain_d1_end       pass=0 fail=20
+P3K2_d1_disjoint   pass=0 fail=68
+P3K2_d1_meeting    pass=0 fail=162
+TOTAL pass=0 fail=487 (centroid rows: False)
+survivors checked=487 inconsistent=0
+level7 patterns=13 inconsistent=0; canonical fixed points: True

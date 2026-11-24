@@ -1,0 +1,18 @@
+{
+ "distinct": 127,
+ "by_source": {
+  "lattice:ce_n7_r3.txt": 28,
+  "lattice:ce_n8_r3.txt": 9,
+  "C3": 1,
+  "tri_random": 89
+ },
+ "raw": {
+  "lattice:ce_n7_r3.txt": 56,
+  "lattice:ce_n8_r3.txt": 15,
+  "C3": 3512,
+  "tri_random": 2081
+ },
+ "inF": 56,
+ "inU": 71,
+ "misses": []
+}

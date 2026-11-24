@@ -1,0 +1,12 @@
+U: file=data/coverage_planted_U_s2_n300_disjoint.txt lines=308 kept=308 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+arr=disjoint          seeds=220680 nodes=227272882 levels[6:220680 7:652500 8:13536 9:288] leaves=288 distinctCanonical=3 time=432.4s
+TARGETS HIT: 1 [planted_disjoint]
+U: file=data/coverage_planted_U_s2_n300_star.txt lines=329 kept=329 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+arr=star              seeds=235800 nodes=64855476 levels[6:235800 7:40320 8:40320 9:3600] leaves=3600 distinctCanonical=15 time=139.7s
+TARGETS HIT: 1 [planted_star]
+U: file=data/coverage_planted_U_s2_n300_chain_d1_end.txt lines=319 kept=319 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+arr=chain_d1_end      seeds=228600 nodes=54643044 levels[6:228600 7:15120 8:2880 9:240] leaves=240 distinctCanonical=2 time=106.5s
+TARGETS HIT: 1 [planted_chain_d1_end]
+U: file=data/coverage_planted_U_s2_n300_P3K2_d1_meeting.txt lines=315 kept=315 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+arr=P3K2_d1_meeting   seeds=225720 nodes=52930380 levels[6:225720 7:10080 8:1440 9:192] leaves=192 distinctCanonical=4 time=104.5s
+TARGETS HIT: 1 [planted_P3K2_d1_meeting]

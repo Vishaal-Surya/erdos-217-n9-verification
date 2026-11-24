@@ -1,0 +1,26 @@
+U: file=data/patterns4_local.txt lines=22 kept=19 (skipped: bad format 0, >4 labels 3, duplicate classes 0)
+mode=orbit, labelled seeds (orbit elements) = 182, built in 0.0s
+targets: 8 loaded for n=7
+arr=disjoint          seeds=182 nodes=494403779 levels[4:182 5:9554 6:1660754 7:192540776] leaves=192540776 distinctCanonical=107172 time=470.7s
+  target hits in disjoint: []
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+arr=triangle          seeds=182 nodes=590733754 levels[4:182 5:32866 6:4750352 7:124393200] leaves=124393200 distinctCanonical=15853 time=362.3s
+  target hits in triangle: []
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+arr=star              seeds=182 nodes=728491118 levels[4:182 5:32866 6:12500360 7:121457328] leaves=121457328 distinctCanonical=51221 time=350.3s
+  target hits in star: [tri7_3]
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+arr=chain_d1_middle   seeds=182 nodes=591604876 levels[4:182 5:32866 6:4750352 7:167735238] leaves=167735238 distinctCanonical=60717 time=417.5s
+  target hits in chain_d1_middle: []
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+arr=chain_d1_end      seeds=182 nodes=563023216 levels[4:182 5:32866 6:4750352 7:150395586] leaves=150395586 distinctCanonical=61074 time=340.7s
+  target hits in chain_d1_end: [tri7_0, tri7_1, tri7_6, tri7_7]
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+arr=P3K2_d1_disjoint  seeds=182 nodes=576901934 levels[4:182 5:32866 6:4750352 7:148386784] leaves=148386784 distinctCanonical=103249 time=347.4s
+  target hits in P3K2_d1_disjoint: []
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+arr=P3K2_d1_meeting   seeds=182 nodes=623892736 levels[4:182 5:32866 6:4750352 7:172069492] leaves=172069492 distinctCanonical=102358 time=418.7s
+  target hits in P3K2_d1_meeting: [tri7_2, tri7_4, tri7_5]
+  NOTE: more than 200000 labelled leaves; stored set truncated (canonical count is a lower bound)
+TOTAL leaves=1076978404 distinctCanonical(all arrangements)=501644
+TARGETS HIT: 8 [tri7_0, tri7_1, tri7_2, tri7_3, tri7_4, tri7_5, tri7_6, tri7_7]

@@ -1,0 +1,12 @@
+loaded local=625472 affine=344835
+Palasti 8-set (u,v)=2*(x/sqrt3... ) multiplicities: [1, 2, 3, 4, 5, 6, 7] general position+crescent: True
+raw general-position <=6-distance 6-sets by source: {'palasti': 15, '(1, 0, 1)': 1502, '(1, 1, 1)': 27143, '(3, 0, 1)': 9599, '(1, 0, 2)': 77, '(1, 1, 2)': 581, '(1, 0, 3)': 4124, '(2, 1, 2)': 531, '(1, 1, 3)': 118, '(2, 1, 3)': 26, '(1, 0, 5)': 93, '(2, 2, 3)': 121, '(1, 1, 4)': 256, '(3, 2, 3)': 103, '(1, 0, 7)': 89, '(2, 1, 4)': 4, '(3, 3, 4)': 63}
+distinct canonical realizable patterns: 202
+realizable patterns by r: {4: 1, 5: 19, 6: 182}
+MISSING from local: 0
+MISSING from affine: 0
+time 33.0s
+
+real	0m33.199s
+user	0m0.015s
+sys	0m0.000s

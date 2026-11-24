@@ -1,0 +1,10 @@
+U: file=data/patterns6_affine.txt.gz lines=344835 kept=300 (skipped: bad format 0, >6 labels 0, duplicate classes 0)
+mode=orbit, labelled seeds (orbit elements) = 214560, built in 0.1s
+arr=disjoint          seeds=214560 nodes=214391466 levels[6:214560 7:603120 8:5376 9:0] leaves=0 distinctCanonical=0 time=429.7s
+arr=triangle          seeds=214560 nodes=47914236 levels[6:214560 7:0 8:0 9:0] leaves=0 distinctCanonical=0 time=106.8s
+arr=star              seeds=214560 nodes=47914236 levels[6:214560 7:0 8:0 9:0] leaves=0 distinctCanonical=0 time=89.7s
+arr=chain_d1_middle   seeds=214560 nodes=47914236 levels[6:214560 7:0 8:0 9:0] leaves=0 distinctCanonical=0 time=100.9s
+arr=chain_d1_end      seeds=214560 nodes=47914236 levels[6:214560 7:0 8:0 9:0] leaves=0 distinctCanonical=0 time=99.4s
+arr=P3K2_d1_disjoint  seeds=214560 nodes=47914236 levels[6:214560 7:0 8:0 9:0] leaves=0 distinctCanonical=0 time=99.9s
+arr=P3K2_d1_meeting   seeds=214560 nodes=47914236 levels[6:214560 7:0 8:0 9:0] leaves=0 distinctCanonical=0 time=85.6s
+TOTAL leaves=0 distinctCanonical(all arrangements)=0

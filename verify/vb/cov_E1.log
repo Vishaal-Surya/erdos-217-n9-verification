@@ -1,0 +1,45 @@
+U lines 187, canonical distinct 187
+arrangement classes: [252, 1512, 1512, 3024, 3780, 3780, 7560]
+reps -> class sizes: {'disjoint': 3780, 'triangle': 252, 'star': 1512, 'chain_d1_middle': 1512, 'chain_d1_end': 3024, 'P3K2_d1_disjoint': 3780, 'P3K2_d1_meeting': 7560}
+triangle level7 states 69
+7-point stage: 13 canonical (no affine), 13 after affine (190s)
+SUMMARY {}
+U lines 187, canonical distinct 187
+arrangement classes: [252, 1512, 1512, 3024, 3780, 3780, 7560]
+reps -> class sizes: {'disjoint': 3780, 'triangle': 252, 'star': 1512, 'chain_d1_middle': 1512, 'chain_d1_end': 3024, 'P3K2_d1_disjoint': 3780, 'P3K2_d1_meeting': 7560}
+disjoint level6 7389 (0.5s)
+disjoint level7 raw 57148 dedup 28295 (11.5s)
+disjoint level8 raw 50589 dedup 36077 (72.4s)
+disjoint level9 raw 640 dedup 222 (166.0s)
+disjoint RESULT {"levels": {"6": 7389, "7": 28295, "8": 36077, "9": 222}, "distinct9": 222, "after_affine": 0}
+triangle level6 187 (0.9s)
+triangle level7 raw 133 dedup 69 (1.3s)
+triangle level8 raw 188 dedup 142 (2.1s)
+triangle level9 raw 6 dedup 3 (2.5s)
+triangle RESULT {"levels": {"6": 187, "7": 69, "8": 142, "9": 3}, "distinct9": 3, "after_affine": 0}
+star level6 7389 (0.7s)
+star level7 raw 3757 dedup 930 (6.9s)
+star level8 raw 0 dedup 0 (8.7s)
+star level9 raw 0 dedup 0 (8.7s)
+star RESULT {"levels": {"6": 7389, "7": 930, "8": 0, "9": 0}, "distinct9": 0, "after_affine": 0}
+chain_d1_middle level6 2018 (0.8s)
+chain_d1_middle level7 raw 1053 dedup 196 (3.3s)
+chain_d1_middle level8 raw 475 dedup 451 (4.0s)
+chain_d1_middle level9 raw 12 dedup 12 (4.6s)
+chain_d1_middle RESULT {"levels": {"6": 2018, "7": 196, "8": 451, "9": 12}, "distinct9": 12, "after_affine": 0}
+chain_d1_end level6 3711 (0.7s)
+chain_d1_end level7 raw 1908 dedup 376 (4.3s)
+chain_d1_end level8 raw 881 dedup 838 (5.6s)
+chain_d1_end level9 raw 20 dedup 20 (7.1s)
+chain_d1_end RESULT {"levels": {"6": 3711, "7": 376, "8": 838, "9": 20}, "distinct9": 20, "after_affine": 0}
+P3K2_d1_disjoint level6 7389 (0.8s)
+P3K2_d1_disjoint level7 raw 3757 dedup 930 (6.6s)
+P3K2_d1_disjoint level8 raw 2217 dedup 1065 (9.6s)
+P3K2_d1_disjoint level9 raw 69 dedup 68 (12.4s)
+P3K2_d1_disjoint RESULT {"levels": {"6": 7389, "7": 930, "8": 1065, "9": 68}, "distinct9": 68, "after_affine": 0}
+P3K2_d1_meeting level6 14626 (0.7s)
+P3K2_d1_meeting level7 raw 7296 dedup 1830 (12.2s)
+P3K2_d1_meeting level8 raw 4223 dedup 2094 (17.0s)
+P3K2_d1_meeting level9 raw 162 dedup 162 (22.3s)
+P3K2_d1_meeting RESULT {"levels": {"6": 14626, "7": 1830, "8": 2094, "9": 162}, "distinct9": 162, "after_affine": 0}
+SUMMARY {"disjoint": {"levels": {"6": 7389, "7": 28295, "8": 36077, "9": 222}, "distinct9": 222, "after_affine": 0}, "triangle": {"levels": {"6": 187, "7": 69, "8": 142, "9": 3}, "distinct9": 3, "after_affine": 0}, "star": {"levels": {"6": 7389, "7": 930, "8": 0, "9": 0}, "distinct9": 0, "after_affine": 0}, "chain_d1_middle": {"levels": {"6": 2018, "7": 196, "8": 451, "9": 12}, "distinct9": 12, "after_affine": 0}, "chain_d1_end": {"levels": {"6": 3711, "7": 376, "8": 838, "9": 20}, "distinct9": 20, "after_affine": 0}, "P3K2_d1_disjoint": {"levels": {"6": 7389, "7": 930, "8": 1065, "9": 68}, "distinct9": 68, "after_affine": 0}, "P3K2_d1_meeting": {"levels": {"6": 14626, "7": 1830, "8": 2094, "9": 162}, "distinct9": 162, "after_affine": 0}}

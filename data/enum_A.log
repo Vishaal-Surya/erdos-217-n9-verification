@@ -1,0 +1,30 @@
+  k=3: candidates completed=5 passing=5 distinct=3
+A k=3 count=3 byR=[0, 1, 1, 1, 0, 0, 0] time=0.0s
+  k=4: candidates completed=129 passing=126 distinct=22
+A k=4 count=22 byR=[0, 0, 4, 8, 7, 2, 1] time=0.0s
+  k=5: candidates completed=12892 passing=11199 distinct=932
+A k=5 count=932 byR=[0, 0, 2, 49, 260, 385, 236] time=0.0s
+  k=6: 50/932 reps, 54693 distinct
+  k=6: 100/932 reps, 138239 distinct
+  k=6: 150/932 reps, 175958 distinct
+  k=6: 200/932 reps, 239284 distinct
+  k=6: 250/932 reps, 338772 distinct
+  k=6: 300/932 reps, 404523 distinct
+  k=6: 350/932 reps, 436054 distinct
+  k=6: 400/932 reps, 455667 distinct
+  k=6: 450/932 reps, 485968 distinct
+  k=6: 500/932 reps, 540907 distinct
+  k=6: 550/932 reps, 575577 distinct
+  k=6: 600/932 reps, 603906 distinct
+  k=6: 650/932 reps, 607100 distinct
+  k=6: 700/932 reps, 612924 distinct
+  k=6: 750/932 reps, 618479 distinct
+  k=6: 800/932 reps, 624773 distinct
+  k=6: 850/932 reps, 625181 distinct
+  k=6: 900/932 reps, 625417 distinct
+  k=6: candidates completed=6066803 passing=4411223 distinct=625472
+A k=6 count=625472 byR=[0, 0, 0, 275, 18938, 166912, 439347] time=2.2s
+
+real	0m2.891s
+user	0m0.000s
+sys	0m0.000s
