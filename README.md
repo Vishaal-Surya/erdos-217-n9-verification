@@ -11,7 +11,7 @@ Erdős asked for which n such configurations exist ([Problem #217](https://www.e
 
 **We confirm independently, by exact computation, that no planar crescent configuration exists for n = 9.** This reproduces, stage by stage, the computer-assisted proof of Y. Wang, *The nonexistence of nine-point crescent configurations*, arXiv:2611.03688 (27 Oct 2026). That paper released no code or data.
 
-- The **reduction is Wang's**. Independence here means two things: every stage was re-implemented twice by separate people working from the specification only, and the algebraic elimination was run with a second, different engine (Gröbner bases with saturation over Q, in addition to Wang's linear-algebra method).
+- The **reduction is Wang's**. Independence here means two things: every stage was implemented twice, independently, from the written specification only (the second implementation never saw the first one's code), and the algebraic elimination was run with a second, different engine (Gröbner bases with saturation over Q, in addition to Wang's linear-algebra method).
 - **Every count reported in the paper was reproduced exactly:**
   - 3 / 22 / 932 / 625,472 patterns;
   - 344,835 after the affine tests;
@@ -25,6 +25,11 @@ Erdős asked for which n such configurations exist ([Problem #217](https://www.e
   - anything for n ≥ 10;
   - a human-readable or formally verified (Lean) proof;
   - that C+Q = 1 is impossible (see the side finding below).
+
+**Provenance and AI disclosure.** This work was carried out by Vishaal Surya using AI assistance: Anthropic's Claude models, run as an orchestrator with separate builder and verifier agents. All code, computations and write-ups were produced that way.
+- The "independent" implementations are separate agents. Each was given only the written specification, and the verifiers were never shown the builders' source.
+- Trust should rest on the released code, the exact certificates and the hashes, which anyone can re-run. It should not rest on who or what wrote them.
+- Independent human reproduction is very welcome. Please open an issue with your results.
 
 The full write-up is in [`REPORT_A.md`](REPORT_A.md), including the caveats (§5). The main one is that correctness rests on Wang's reduction, which we re-derived but did not replace, together with the correctness of the released code.
 
